@@ -77,7 +77,7 @@ function Home() {
             <h2 className='text-[20px] sm:text-[25px] py-2 font-semibold'>Get In Touch</h2>
             <span className='text-[15px] sm:text-[18px]'>Kindly send a message via:<br/></span>
             <button className='text-[13px] sm:text-[14px] font-semibold w-24 sm:w-32 border text-white bg-green-500 rounded-md p-[6px] mt-1'><a href='http://wa.me/2348149249926' target="_blank">Whatapp</a></button>
-            <button className='text-[13px] sm:text-[14px] font-semibold w-24 sm:w-32 border-2 text-white bg-yellow-400 rounded-md p-[6px] my-2 sm:my-0 px-2 sm:mx-2'><a href='mailto:wedoprojects@gmail.com' target="_blank">Email</a></button>
+            <button className='text-[13px] sm:text-[14px] font-semibold w-24 sm:w-32 border-2 text-white bg-yellow-400 rounded-md p-[6px] my-2 sm:my-0 px-2 sm:mx-2'><a href='mailto:wedoproject2@gmail.com' target="_blank">Email</a></button>
           </div>
           
           </div>
