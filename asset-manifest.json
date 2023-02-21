@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wedoprojects/static/css/main.4641f477.css",
+    "main.js": "/wedoprojects/static/js/main.77368025.js",
+    "static/js/787.942425aa.chunk.js": "/wedoprojects/static/js/787.942425aa.chunk.js",
+    "static/media/bgg.png": "/wedoprojects/static/media/bgg.105c775bdab7e5f2fa92.png",
+    "static/media/project.png": "/wedoprojects/static/media/project.fd18978d38e1f7b2d1ab.png",
+    "static/media/research.png": "/wedoprojects/static/media/research.687e7c39cdae19f1ab29.png",
+    "static/media/data.png": "/wedoprojects/static/media/data.a5215c4c2495011a0d00.png",
+    "static/media/work.png": "/wedoprojects/static/media/work.b405aa1564203910949a.png",
+    "index.html": "/wedoprojects/index.html",
+    "main.4641f477.css.map": "/wedoprojects/static/css/main.4641f477.css.map",
+    "main.77368025.js.map": "/wedoprojects/static/js/main.77368025.js.map",
+    "787.942425aa.chunk.js.map": "/wedoprojects/static/js/787.942425aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4641f477.css",
+    "static/js/main.77368025.js"
+  ]
+}
