@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bgg{
+
+  /* background-size: "cover"; */
+  height: 356px;
+  width: 356px;
+}
+.bgg:hover{
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  
+}
+.bg{
+  height: 256px;
+  width: 256px;
+}
+.bg:hover{
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  
+}
+.a{
+  background-image: url("./components/img/project.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.b{
+  background-image: url("./components/img/research.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.c{
+  background-image: url("./components/img/data.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// .home {
+//   background-image: url("./components/img/bgg.png");
+//   /* /* background-position: auto; */
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 50vh;
+// }
+
+ @media only screen and (max-width: 100px) {
+
+  .home {
+    background-image: url("./components/img/bgg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+ }
+ 
+ @media only screen and (max-width: 400px) {
+
+  .home {
+    background-image: url("./components/img/bgg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+ }
+
+ 
+ @media only screen and (max-width: 600px) {
+
+  .home {
+    background-image: url("./components/img/bgg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+ }
+ 
+ @media only screen and (max-width: 1800px) {
+
+  .home {
+    background-image: url("./components/img/bgg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+ }
+
+ .wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  // font-size: 60px;
+  // font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(16) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
