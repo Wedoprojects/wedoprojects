@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Catamaran', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Signika', sans-serif;
 
 }
 
@@ -18,11 +22,11 @@ code {
 @tailwind utilities;
 
 h1{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Patua One', cursive;
 }
 
 h2{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Patua One', cursive;
 }
 
 h3 {

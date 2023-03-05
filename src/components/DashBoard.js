@@ -13,7 +13,7 @@ function DashBoard() {
 
   return (
     <div className='w-full border sticky top-0 z-50 bg-[#fdfdfd]'>
-    <div className='justify-between sm:hidden  flex bg-[#fdfdfd] sticky top-0 text-black mx-auto max-w-[350px] sm:max-w-[600px] md:max-w-[950px] lg:max-w-[1150px] h-20 items-center '>
+    <div className='justify-between sm:hidden  flex bg-[#fdfdfd] sticky top-0 text-black mx-auto max-w-[350px] sm:max-w-[600px] md:max-w-[950px] lg:max-w-[1150px] h-16 items-center '>
         <h2 className='text-[16px] md:text-[30px] font-bold'>Wedoprojects</h2>
       <div className='float-left' onClick={handleMenu}>
         { showMenu ? <CgCloseR  /> : <AiOutlineMenu />}
@@ -23,7 +23,7 @@ function DashBoard() {
         <li className="p-1"><a href='#about'>About</a></li>
             <li className="p-1"><a href='#offer'>What we offer</a></li>
             <li className="p-1"><a href='#contact'>Contact</a></li>
-            <button className='py-2 text-[13px] sm:text-[20px] rounded-md text-white bg-purple-500 p-[4px] px-[10px] sm:h-12 sm:w-[140px] mx-1'><a href='http://wa.me/2348149249926' target="_blank">Get started</a></button>
+            <button className='py-2 text-[10px] sm:text-[20px] rounded-md text-white bg-purple-500 p-[4px] px-[10px] sm:h-12 sm:w-[140px] mx-1'><a href='http://wa.me/2348149249926' target="_blank">Get started</a></button>
         </ul>
       </div>
       </div>
